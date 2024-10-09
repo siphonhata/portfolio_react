@@ -1,13 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Define light mode styles */
+body.light-mode {
+    background-color: #ffffff; /* Light background */
+    color: #333333; /* Dark text */
+}
+
+/* Dark mode styles (if needed, define your dark mode styles) */
+body {
+    background-color: #1a202c; /* Dark background (Tailwind gray-800) */
+    color: #ffffff; /* Light text */
 }
