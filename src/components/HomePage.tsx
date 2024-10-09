@@ -9,7 +9,7 @@ export const HomePage = () => {
         <div className="relative flex items-center">
           <div className="absolute inset-0 z-0 bg-secondary clip-path-shape"></div>
           <div className="w-2/3 rounded-lg bg-black overflow-hidden">
-            <img src="https://media.licdn.com/dms/image/D5612AQEN4dV-DgLwNA/article-cover_image-shrink_600_2000/0/1690814547641?e=2147483647&v=beta&t=qU7ECD33uYKDYm0TVqj3p-Hcia9t4n_i7ztjUnATawM" />
+            <img src="https://sipho-portfolio-app1.web.app/img/pic.png" />
           </div>
         </div>
         {/* Right Header */}
