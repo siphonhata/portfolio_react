@@ -2,19 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
-body {
-    transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
-}
-
-/* Define light mode styles */
-body.light-mode {
-    background-color: #ffffff; /* Light background */
-    color: #333333; /* Dark text */
-}
-
-/* Dark mode styles (if needed, define your dark mode styles) */
-body {
-    background-color: #1a202c; /* Dark background (Tailwind gray-800) */
-    color: #ffffff; /* Light text */
-}
+@layer utilities {
+    .clip-path-shape {
+      clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+    }
+  }
+ 
